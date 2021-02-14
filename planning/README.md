@@ -12,7 +12,7 @@ Daily video call organized using Zoom or Google Meet.
 
 Discussion: the group work progress and learning experience (sharing knowledge).
 
-- Monday call --- : setting up week's plan and repository
+- Monday call 20h : Brainstorm user stories for HYFB website. Goal: task division.
 - Tuesday call at ---: discuss about backlog and wireframe
 - Wednesday call ---: set up development strategy and project board
 - Thursday and friday working with code according assignments on development strategy
