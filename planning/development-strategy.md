@@ -85,7 +85,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ### CSS (_label_)
 
-- the "navbar container flex" class (_issue_)
+- the "`navbar`" class (_issue_)
 
 ## II. Banner Section
 
