@@ -1,4 +1,4 @@
-# Loruki Website
+# Hack Your Future - Reverse-Engineer
 
 This is the reverse-engineer project to [Hack Your Future Belgium](https://hackyourfuture.be/). This project is developed by **Group 4** of [HackYourFutureBelgium](https://hackyourfuture.be/) **Class 13-14** from the second module called [Incremental Development](https://github.com/HackYourFutureBelgium/incremental-development)
 
