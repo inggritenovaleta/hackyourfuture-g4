@@ -79,7 +79,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 ### HTML (_label_)
 
 - Header of the web page (_issue_)
-  - [ ] uses a "navbar container flex" classes
+  - [ ] uses a "navbar" classes
   - [ ] is the header created with container element
 - Create a boilerplate in the index html (_issue_)
 
