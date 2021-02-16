@@ -8,8 +8,33 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 > these are necessary for basic usability
 
+- As a User, I want to go to other pages (The Program, Volunteer, About, FAQ, Support Us, and Registration ), so I can see what the website has to offer.
+  - [ ] _Given any browser when a user navigates to our URL then the site should appear with no errors showing the other pages of the website, and also 'Apply Now' button so that users can apply for the program._
 
+- As a user I want to see the brief information about the website so that I will know what kind of website it is. 
+  - [ ] _Given the user's want to have a brief information  of the website, there must be a showcase on the main page displaying the information with a 'Discover More' button for the full description._
+ 
+ - As a user I want to see the statistic the website so that I will know what the organization has achieved. 
+    - [ ] _Given the user's want to see the statistic of the organization, there must be a showcase on the main page displaying the statistic of the program, includes the graduates, the employment rate, and how many students HYF have._
+ 
+ - As a user I want to see the core values of the website so that I will be able to see what are the values Hack Your Future employ to fullfil the mission.
+    - [ ] _Given the user's want to see the core values of the organization, there must be a showcase on the main page displaying the core values of Hack Your Future with a brief explaination for each value._
 
+- As a user I want to see the success stories of alumni so that I will know the potential growth of this program. 
+  - [ ] _Given the user's want to see the suceess stories of the participants, there must be a showcase on the main page displaying the testimonial and the stories of alumnis and students._
+  
+- As a user I want to see the partners of the organization so that I will know wo are the partners that helpthe organization to fulltif the mission. 
+  - [ ] _Given the user's want to see the partners, there must be a showcase on the main page displaying the partners by using their logos._
+  
+- As a user I want to support the organization through donation so that the organization can fulltil their mission. 
+  - [ ] _Given the user's want to ssupport the organization, there must be a showcase on the main page displaying the donation form with 'Donate' button as CTA._
+  
+- As a user I want to see the contact details so that I can ask if have more question and so that I know where is the organization located. 
+  - [ ] _Given the user's want to see the contact details, there must be a showcase on the main page displaying the tcontact form with 'Send' button as CTA, along with Google Maps to the location of HYFB._
+  
+- As a user I want to see the information detail of the organization including the social media pages so that I can chek the other platform to know more.. 
+  - [ ] _Given the user's want to see the information details of the organization, there must be a showcase on the main page displaying the address, email, and other social media link (Facebook, Twitter, Github, LinkedIn).
+  
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary.
