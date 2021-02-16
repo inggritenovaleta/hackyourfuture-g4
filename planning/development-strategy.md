@@ -54,7 +54,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## I. Header With Menu
 
-> Assigned to **.......**
 
 > Small step.
 
@@ -89,7 +88,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## II. Banner Section
 
-> Assigned to **......**.
+
 
 > Medium step.
 
@@ -124,7 +123,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## III. Our Program
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -159,7 +157,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## IV. Our Impact
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -195,7 +192,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## V. Our Core Values
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -230,7 +226,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## VI. Our Success Stories
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -265,7 +260,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## VII. Our Partners
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -300,7 +294,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## VIII. Support
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -336,7 +329,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## IX. Contact
 
-> Assigned to **......**.
 
 > Medium step.
 
@@ -373,7 +365,6 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ## X. Footer
 
-> Assigned **.......**
 
 > Small step.
 
