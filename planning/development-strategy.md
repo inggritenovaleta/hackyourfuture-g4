@@ -39,7 +39,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 ---
 
-### ![Wireframe](images/HYFB.png)
+### ![Wireframe](../public/img/HYFB.png)
 
 > Assigned to **Saban Yelkenci**
 
@@ -81,6 +81,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 - Header of the web page (_issue_)
   - [ ] uses a "navbar container flex" classes
   - [ ] is the header created with container element
+- Create a boilerplate in the index html (_issue_)
 
 ### CSS (_label_)
 
@@ -183,8 +184,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - Our Impact Section html of the web page (_issue_)
   - [ ] creates `div` elements
-  - [ ] uses `h2` elements for the title and `p` elements for the paragraph
-  - [ ] use `h1` elements for the statistical data
+  - [ ] uses `h1` and `h2` and `p` elements
 
 ### CSS (_label_)
 
