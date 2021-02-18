@@ -52,6 +52,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 - Team members
 - Table of contents with: General info, Technologies, Screenshots, Status, contribution and launch
 
+
 ## I. Header With Menu
 
 
@@ -74,7 +75,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `header`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -110,7 +111,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Banner`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -144,7 +145,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Our Program`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -178,7 +179,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Our Impact`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -212,7 +213,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Our Core Values`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -246,7 +247,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Our Success Stories`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -280,7 +281,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Our Partners`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -314,7 +315,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Support`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -349,7 +350,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Contact`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
@@ -385,7 +386,7 @@ This is a web site recreated from the home page [Hack Your Future](https://hacky
 
 - `style.css`: to style all the page
 
-### milestone is `Footer`
+### milestone is `main-page`
 
 ### HTML (_label_)
 
