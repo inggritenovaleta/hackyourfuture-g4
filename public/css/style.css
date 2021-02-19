@@ -28,7 +28,7 @@
   width: 100%;
   max-width: 1280px;
   padding: 10px 0;
-  margin: 0 auto;
+  margin: 0 aut o;
 }
 
 .showcase-h1 {
@@ -57,9 +57,6 @@
   background: none;
   z-index: 1;
   flex: 0 0 auto;
-  box-shadow: border-box;
-
-
 }
 
 .our-program-container {
@@ -72,20 +69,16 @@
   max-width: 1280px;
   padding: 10px 0px;
   margin: 0px auto;
-
 }
 
 .our-program-container-d1 {
-
   width: 100%;
   display: flex;
   margin: 50px 50px;
   box-shadow: border-box;
-  
 }
 
 .our-program-container-d2 {
-
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -95,7 +88,42 @@
   padding: 0px 50px 0px 0px;
   width: 50%;
   order: 1;
+}
 
+.our-program-container-d3 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    min-height: 400px;
+    order: 2;
+    padding: 0px 0px 0px 50px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+
+}
+
+
+
+.our-program-container-d4 {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  background: url(/public/img/our-program.jpg) 0% 0% / cover transparent;
+  flex: 0 1 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .our-program-h1 {
@@ -111,7 +139,6 @@
 }
 
 .our-program-p {
-
   color: rgb(45, 48, 55);
   text-align: left;
   max-width: 470px;
@@ -122,4 +149,25 @@
   white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.our-program-button {
+    display: inline-flex;
+    font-size: 12px;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    background-color: transparent;
+    color: rgb(74, 80, 187);
+
 }
