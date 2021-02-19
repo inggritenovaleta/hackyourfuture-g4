@@ -1,0 +1,54 @@
+
+
+
+
+
+/* banner */
+
+.banner {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px;
+    position: relative;
+    box-shadow: none;
+    z-index: 1;
+    flex: 0 0 auto;
+    box-shadow: none;
+  
+    line-height: 1;
+
+    background:url(/public/img/banner\ img.jpg) center center no-repeat transparent  
+}
+
+
+.showcase-container {
+    display:flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    padding: 10px 0;
+    margin: 0 auto;
+    
+
+}
+
+.showcase-h1 {
+    display: block;
+    font-size: 64px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: none;
+ 
+}
+
