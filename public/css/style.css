@@ -29,6 +29,19 @@
   max-width: 1280px;
   padding: 10px 0;
   margin: 0 aut o;
+
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;900&family=Work+Sans:wght@300;600;700&display=swap)
+
+.navbar {
+        display: flex;
+        -webkit-box-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        flex-direction: row;
+
 }
 
 .showcase-h1 {
@@ -102,8 +115,6 @@
 
 }
 
-
-
 .our-program-container-d4 {
   -webkit-box-align: stretch;
   align-items: stretch;
@@ -171,3 +182,4 @@
     color: rgb(74, 80, 187);
 
 }
+
