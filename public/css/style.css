@@ -1,12 +1,49 @@
-@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;900&family=Work+Sans:wght@300;600;700&display=swap)
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;900&family=Work+Sans:wght@300;600;700&display=swap);
 
 .navbar {
-        display: flex;
-        -webkit-box-pack: end;
-        justify-content: flex-end;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-flex: 1;
-        flex-grow: 1;
-        flex-direction: row;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+/* core values */
+.core-values {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 10%;
+    background-color: rgb(248, 249, 252);
+    padding: 6%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(28, 34, 148);
+}
+
+.core-values-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.core-values-title {
+    font-size: 1.6rem;
+}
+
+.core-values-item {
+    width: 48%;
+    margin: 1%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.core-values-item p {
+    color: black;
+    line-height: 25px;
 }
