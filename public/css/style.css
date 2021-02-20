@@ -107,11 +107,25 @@
     display: flex;
     width: 50%;
     height: 100%;
+our-program
     min-height: 400px;
     order: 2;
     padding: 0px 0px 0px 50px;
     -webkit-box-align: stretch;
     align-items: stretch;
+
+    padding: 50px 20px;
+    position: relative;
+    box-shadow: none;
+    z-index: 1;
+    flex: 0 0 auto;
+    box-shadow: none;
+  
+    line-height: 1;
+
+    background:url(/public/img/banner.jpg) center center no-repeat transparent  
+}
+main
 
 }
 
