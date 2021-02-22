@@ -4,7 +4,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0 px;
+    padding: 0;
 }
 
 ul {
@@ -17,41 +17,41 @@ a {
         color: rgb(127, 127, 127);
 }
 
-.navbar {
-        display: flex;
-        -webkit-box-pack: end;
-        justify-content: flex-end;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-flex: 1;
-        flex-grow: 1;
-        flex-direction: row;
+img {
+    width: 100%;
 }
+
 .logo{
-    display:block;
-    align-items:center;
-    height: 60%;
+    display:flex;
+    width: 100px;
+    height: 100px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    align-items: center;
 }
 
 /* navbar */
-.navbar {
+navbar {
     display: flex;
-    flex-direction:column;
-    height: 100px;
+    flex-direction:row;
+    float: right;
+    height: 85px;
+    min-height: 85px;
     width: 100%;
-    z-index: 0;
-    position:static;
     background: transparent;
-    flex: 0 1 100%;
+    padding: 10px 20px;
+    justify-content: flex-end;
+    height: 100%;
+    line-height: 90px;
+    align-items: center;
 }
 
 .navbar ul li {
-    display: inline-flex;
-    -webkit-box-align: center;
-    align-items:flex-end;
+    display:inline-block;
+    align-items:center;
     height: 100%;
     color: rgb(127, 127, 127);
-    font-size: 12px;
     line-height: 160%;
     text-transform: uppercase;
     padding: 0px;
@@ -60,20 +60,23 @@ a {
 
 .navbar ul li a {
     text-decoration:none;
+    display: inline-flex;
     color: rgb(127, 127, 127);
     font-family: sans-serif;
     font-size: 12px;
+    font-style: normal;
     text-transform:uppercase;
-    padding: 10px 20px;
+    padding: 10px 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar a:hover {
     border-bottom: 3px rgb(74, 80, 187) solid;
+    color: black;
 }
 
 .btn {
-    display: inline-flex;
     font-size: 12px;
     line-height: 160%;
     text-decoration: none;
@@ -82,12 +85,9 @@ a {
     font-weight: 600;
     border: 1px solid transparent;
     border-radius: 4px;
-    box-sizing: border-box;
     padding: 10px 20px;
     cursor: pointer;
     text-transform: uppercase;
-    -webkit-box-align: center;
-    align-items: center;
     font-family: "Work Sans", sans-serif;
 }
 
@@ -105,9 +105,7 @@ a {
     z-index: 1;
     flex: 0 0 auto;
     box-shadow: none;
-  
     line-height: 1;
-
     background:url(/public/img/banner.jpg) center center no-repeat transparent  
 }
 
@@ -141,6 +139,7 @@ a {
 }
 
 .container {
+    width: 95%;
     margin: 0px;
     padding: 0px;
 }
