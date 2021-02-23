@@ -109,8 +109,7 @@ navbar {
   flex: 0 0 auto;
   box-shadow: none;
   line-height: 1;
-  background: url(/public/img/banner\ img.jpg) center center no-repeat
-    transparent;
+  background: url(../img/banner.jpg) center center no-repeat transparent;
 }
 
 .showcase-container {
