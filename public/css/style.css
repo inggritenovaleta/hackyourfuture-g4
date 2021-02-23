@@ -282,6 +282,12 @@ img {
     justify-content: space-between;
     align-items:center;
     height: 100%;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-direction: row;
 }
 
 /* core values */
