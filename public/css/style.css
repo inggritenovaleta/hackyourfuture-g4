@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;900&family=Work+Sans:wght@300;600;700&display=swap)
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,8 +12,8 @@ ul {
 
 
 a {
-        text-decoration: none;
-        color: rgb(127, 127, 127);
+    text-decoration: none;
+    color: rgb(127, 127, 127);
 }
 
 img {
@@ -34,7 +33,9 @@ img {
 /* navbar */
 navbar {
     display: flex;
+    -webkit-box-pack: end;
     flex-direction:row;
+    flex-grow: 1;
     float: right;
     height: 85px;
     min-height: 85px;
@@ -42,6 +43,8 @@ navbar {
     background: transparent;
     padding: 10px 20px;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
     height: 100%;
     line-height: 90px;
     align-items: center;
@@ -94,11 +97,104 @@ navbar {
 /* banner */
 
 .banner {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  z-index: 1;
+  flex: 0 0 auto;
+  box-shadow: none;
+  line-height: 1;
+  background: url(/public/img/banner\ img.jpg) center center no-repeat
+    transparent;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.showcase-h1 {
+  display: block;
+  font-size: 64px;
+  line-height: 120%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: none;
+}
+
+/* Our Program */
+
+.our-program {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.our-program-container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+
+.our-program-container-d1 {
+  width: 100%;
+  display: flex;
+  margin: 50px 50px;
+  box-shadow: border-box;
+}
+
+.our-program-container-d2 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding: 0px 50px 0px 0px;
+  width: 50%;
+  order: 1;
+}
+
+.our-program-container-d3 {
     display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
+our-program
+    min-height: 400px;
+    order: 2;
+    padding: 0px 0px 0px 50px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+
     padding: 50px 20px;
     position: relative;
     box-shadow: none;
@@ -109,33 +205,71 @@ navbar {
     background:url(/public/img/banner.jpg) center center no-repeat transparent  
 }
 
-
-.showcase-container {
-    display:flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1280px;
-    padding: 10px 0;
-    margin: 0 auto;
-    
-
+.our-program-container-d4 {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: auto;
+  position: relative;
+  background: url(/public/img/our-program.jpg) 0% 0% / cover transparent;
+  flex: 0 1 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-.showcase-h1 {
-    display: block;
-    font-size: 64px;
-    line-height: 120%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-family:sans-serif;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    max-width: none;
+.our-program-h1 {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
 
+.our-program-p {
+  color: rgb(45, 48, 55);
+  text-align: left;
+  max-width: 470px;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.our-program-button {
+    display: inline-flex;
+    font-size: 12px;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    background-color: transparent;
+    color: rgb(74, 80, 187);
 }
 
 .container {
