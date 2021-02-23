@@ -109,8 +109,7 @@ navbar {
   flex: 0 0 auto;
   box-shadow: none;
   line-height: 1;
-  background: url(/public/img/banner\ img.jpg) center center no-repeat
-    transparent;
+  background: url(../img/banner.jpg) center center no-repeat transparent;
 }
 
 .showcase-container {
@@ -188,7 +187,6 @@ navbar {
     display: flex;
     width: 50%;
     height: 100%;
-our-program
     min-height: 400px;
     order: 2;
     padding: 0px 0px 0px 50px;
@@ -202,7 +200,7 @@ our-program
     flex: 0 0 auto;
     box-shadow: none;
     line-height: 1;
-    background:url(/public/img/banner.jpg) center center no-repeat transparent  
+   
 }
 
 .our-program-container-d4 {
@@ -221,7 +219,7 @@ our-program
   width: 100%;
   z-index: auto;
   position: relative;
-  background: url(/public/img/our-program.jpg) 0% 0% / cover transparent;
+  background: url(../img/our-program.jpg) 0% 0% / cover transparent;
   flex: 0 1 100%;
   margin: 0px;
   padding: 0px;
