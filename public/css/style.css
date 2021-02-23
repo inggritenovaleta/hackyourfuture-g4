@@ -16,6 +16,12 @@ a {
     color: rgb(127, 127, 127);
 }
 
+/*
+img {
+    width: 100%;
+}
+*/
+
 .logo{
     display:flex;
     width: 100px;
