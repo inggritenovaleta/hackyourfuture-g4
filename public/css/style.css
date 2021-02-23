@@ -60,5 +60,148 @@
  
 }
 
+/* Our success stories */
+.success-stories {
+    display: flex;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgb(248, 248, 248);
+}
 
+.story {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+    opacity: 1;
+    min-height: 500px;
+    padding: 30px;
+}
+
+.success-title {
+    display: block;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(28, 34, 148);
+    text-align: center;
+    max-width: none;
+    text-decoration: solid;
+}
+
+.student-stories {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: dimgrey;
+    width: 47%;
+    height: 500px;
+    padding-top: 0px;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+
+.arrow-right {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 15px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.arrow-right:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04); 
+}
+
+.arrow-left {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 15px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.arrow-left:hover {
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04); 
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto auto 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+.student-name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(28, 34, 148);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+
+.job {
+    text-align: center;
+    max-width: none;
+    color: #4A50BB;
+    font-weight: 600;
+    line-height: 160%;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    margin: 0px 0px 20px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.student-experience {
+    font-family: "Space Mono", monospace;
+    color: rgb(45, 48, 55);
+    text-align: center;
+}
 
