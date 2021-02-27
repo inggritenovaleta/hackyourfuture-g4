@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;900&family=Work+Sans:wght@300;600;700&display=swap)
 
+
 .navbar {
   display: flex;
   display: flex;
@@ -89,6 +90,7 @@
   text-transform: uppercase;
   -webkit-box-align: center;
   align-items: center;
+
   font-family: "Work Sans", sans-serif;
 }
 
@@ -331,7 +333,6 @@
   width: 30%;
   padding: 20px;
   box-sizing: border-box;
-
 }
 
 .our-impact-d2-h1 {
@@ -361,6 +362,7 @@
 }
 
 
+
 .our-impact-d1-p {
   color: rgb(45, 48, 55);
   text-align: center;
@@ -388,6 +390,33 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+.our-impact-d1-p {
+  color: rgb(45, 48, 55);
+  text-align: center;
+  max-width: 800px;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-weight: 300;
+}
+
+.our-impact-d2-p {
+
+    color: white;
+    text-align: left;
+    max-width: none;
+    line-height: 160%;
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+    margin: 0px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-weight: 300;
+
 }
 
 /* core values */
@@ -427,10 +456,183 @@
   line-height: 25px;
 }
 
-/* our partners */
+/* success stories */
+
+.success-stories {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+
+.success-stories-c1 {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+
+.success-stories-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.success-stories-title {
+  font-size: 24px;
+  line-height: 140%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(28, 34, 148);
+  text-align: left;
+  max-width: none;
+}
+
+.student-box {
+  width: 50%;
+  min-height: 500px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.student-stories {
+  width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+  transform: none;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 8%) 0px 0px 53px;
+  padding: 50px;
+}
+
+.student1 {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: none;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: url(../img/Hanim.jpg) 0% 0% / cover transparent;
+  flex: 0 1 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto auto 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.arrow-right {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 15px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.arrow-right:hover {
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04); 
+}
+
+.arrow-left {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 15px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.arrow-left:hover {
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04); 
+}
+
+.student-name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(28, 34, 148);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 8px;
+}
+
+.job {
+  text-align: center;
+  max-width: none;
+  color: #4A50BB;
+  font-weight: 600;
+  line-height: 160%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  margin: 0px 0px 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.student-experience {
+  font-family: "Space Mono", monospace;
+  color: rgb(45, 48, 55);
+  text-align: center;
+}
+
+/* Our Partners */
 
 .our-partners {
-    display: flex;
+  display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   width: 100%;
@@ -444,15 +646,15 @@
 
 .our-partners-c1 {
   display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1280px;
-    padding: 10px 0px;
-    margin: 0px auto;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  padding: 10px 0px;
+  margin: 0px auto;
 }
 
 .our-partners-c2 {
@@ -465,7 +667,7 @@
 }
 
 .partner-title {
-    font-size: 24px;
+  font-size: 24px;
   line-height: 140%;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -478,21 +680,21 @@
 
 .become-a-partner {
   display: inline-flex;
-    font-size: 12px;
-    line-height: 160%;
-    text-decoration: none;
-    font-weight: 600;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    box-sizing: border-box;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    -webkit-box-align: center;
-    align-items: center;
-    font-family: "Work Sans", sans-serif;
-    background-color: transparent;
-    color: rgb(74, 80, 187);
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  background-color: transparent;
+  color: rgb(74, 80, 187);
 }
 
 .our-partners-c2 h2 {
@@ -506,10 +708,10 @@
 
 .our-partners-box {
   display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
 }
 
 .our-partners-logo {
@@ -541,8 +743,7 @@
   border-radius: 0px;
 }
 
-
-/*support section*/
+/* SUPPORT SECTION */
 
 .support {
   display: flex;
@@ -826,6 +1027,7 @@
   text-align: left;
   max-width: none;
 }
+
 .contact-p {
   color: white;
   text-align: left;
@@ -838,6 +1040,7 @@
   word-break: break-word;
   font-weight: 300;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -848,6 +1051,7 @@
   border: 0;
   box-sizing: border-box;
 }
+
 .contact-label {
   color: white;
   text-align: left;
@@ -864,6 +1068,7 @@
   border: 0;
   box-sizing: border-box;
 }
+
 .contact-input {
   border: 1px solid white;
   border-radius: 3px;
@@ -872,7 +1077,6 @@
   padding: 10px 5px;
   color: white;
   width: 100%;
-
 }
 .contact-textarea {
   border: 1px solid white;
@@ -884,6 +1088,7 @@
   margin-bottom: 20px;
   width: 100%;
 }
+
 .contact-button {
   display: inline-flex;
   font-size: 12px;
@@ -907,3 +1112,36 @@
   height: 100%;
   border: 0;
 }
+
+  /* footer */
+
+  .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  background-color: white;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  color: rgb(28, 34, 148);
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: black;
+}
+
+.social_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social_icons img {
+  margin: 1rem;
+}	
