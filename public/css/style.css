@@ -509,7 +509,8 @@
   min-height: 500px;
   position: relative;
   box-sizing: border-box;
-  display: flex;
+  display:flex;
+  flex-direction:row;
 }
 
 .student-stories {
