@@ -8,183 +8,265 @@
     <title>Hack Your Future Belgium</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <header class="navbar">
-      <div class="container flex">
-        <div class="logo">
+
+<!-- Navbar -->  
+<header class="navbar">
+  <div class="navbar-cd-1">
+    <div class="navbar-cd-2">
+      <a href="index.html">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU0IiBoZWlnaHQ9IjgxIiB2aWV3Qm94PSIwIDAgMTU0IDgxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KPHBhdGggZD0iTTE1NCA3NC40NDAxVjc5LjY4MThIMTM2LjgxMlY1OS40MDU4SDE1My42MzRWNjQuNjQ3NUgxNDMuOTY0VjY3LjE2NjhIMTUxLjc2NVY3Mi4wMDIxSDE0My45NjRWNzQuMzk5NUwxNTQgNzQuNDQwMVpNMTI3LjU0OCA3OS42ODE4TDEyMy45NzIgNzIuOTM2N0gxMjIuMDIyVjc5LjY4MThIMTE1LjAzM1Y1OS40MDU4SDEyNi4wMDRDMTI4LjY4NiA1OS40MDU4IDEzMC43NTggNTkuOTc0NyAxMzIuMTM5IDYxLjExMjRDMTMzLjUyMSA2Mi4yNTAxIDEzNC4yMTIgNjMuOTU2NyAxMzQuMjEyIDY2LjE5MTZDMTM0LjIxMiA2OS4xNTc4IDEzMi45OTMgNzEuMTQ4OCAxMzAuNTU1IDcyLjE2NDZMMTM1LjM0OSA3OS42NDEyTDEyNy41NDggNzkuNjgxOFpNMTI2LjQ5MSA2NC45MzE5QzEyNi4xMjYgNjQuNjQ3NSAxMjUuNDc1IDY0LjQ4NSAxMjQuNTgyIDY0LjQ4NUgxMjIuMDIyVjY4LjIyMzJIMTI0LjU4MkMxMjUuNDc1IDY4LjIyMzIgMTI2LjEyNiA2OC4xMDEzIDEyNi40OTEgNjcuODE2OUMxMjcuMjIzIDY3LjA0NDkgMTI3LjIyMyA2NS43ODUyIDEyNi40OTEgNjQuOTMxOVpNMTAyLjQzNiA4MC4wMDY5Qzk1LjkzNTEgODAuMDA2OSA5Mi42NDM4IDc3IDkyLjY0MzggNzAuOTg2M1Y1OS40NDY0SDk5LjgzNTlWNzEuNTE0NUM5OS43OTUyIDcyLjMyNzIgOTkuOTk4NCA3My4xODA1IDEwMC40ODYgNzMuODMwNkMxMDAuOTc0IDc0LjM1ODggMTAxLjcwNSA3NC42ODM5IDEwMi40MzYgNzQuNjAyNkMxMDMuMTY4IDc0LjY0MzMgMTAzLjg5OSA3NC4zNTg4IDEwNC4zODcgNzMuODMwNkMxMDQuODc0IDczLjE4MDUgMTA1LjExOCA3Mi4zMjcyIDEwNS4wNzggNzEuNTE0NVY1OS40MDU4SDExMi4yMjlWNzAuOTQ1NkMxMTIuMjI5IDc3IDEwOC45NzggODAuMDA2OSAxMDIuNDM2IDgwLjAwNjlaTTg0LjQ3NjUgNzkuNjgxOEg3Ny4zMjUxVjY0LjY0NzVINzAuOTg2M1Y1OS40MDU4SDkwLjgxNTNWNjQuNjQ3NUg4NC41MTcyTDg0LjQ3NjUgNzkuNjgxOFpNNTkuMzI0NSA4MC4wMDY5QzUyLjc4MjYgODAuMDA2OSA0OS41MzE5IDc3IDQ5LjUzMTkgNzAuOTg2M1Y1OS40NDY0SDU2LjcyNFY3MS41MTQ1QzU2LjY4MzQgNzIuMzI3MiA1Ni44ODY1IDczLjE4MDUgNTcuMzc0MSA3My44MzA2QzU3Ljg2MTcgNzQuMzU4OCA1OC41OTMxIDc0LjY4MzkgNTkuMzI0NSA3NC42MDI2QzYwLjA1NTkgNzQuNjQzMyA2MC43ODczIDc0LjM1ODggNjEuMjc0OSA3My44MzA2QzYxLjc2MjUgNzMuMTgwNSA2Mi4wMDYzIDcyLjMyNzIgNjEuOTY1NyA3MS41MTQ1VjU5LjQwNThINjkuMTE3MlY3MC45NDU2QzY5LjExNzIgNzcgNjUuODY2NSA4MC4wMDY5IDU5LjMyNDUgODAuMDA2OVpNMzguMTU0NiA2Ny40OTE4SDQ1Ljk1NjJWNzIuNzMzNUgzOC4xNTQ2Vjc5LjY4MThIMzEuMDAzMlY1OS40MDU4SDQ3Ljc4NDdWNjQuNjQ3NUgzOC4xNTQ2VjY3LjQ5MThaTTg0LjU5ODQgMjAuNDc5Mkg3Ni42MzQzTDcyLjg5NiAxMi45MjE0TDcxLjIzMDEgMTUuMTk2OFYyMC40NzkySDY0LjExOTNWMC4zMjUwNjhINzEuMjMwMVY3Ljg0MjIyTDc2LjQ3MTggMC4zMjUwNjhIODQuMDI5Nkw3Ny44NTMzIDguMzI5ODJMODQuNTk4NCAyMC40NzkyWk01My4xNDgzIDE1LjQ0MDZDNTQuMTIzNSAxNS40NDA2IDU0LjgxNDIgMTUuMjM3NSA1NS4yMjA2IDE0Ljc5MDVDNTUuNzA4MiAxNC4xODEgNTUuOTkyNiAxMy40NDk2IDU2LjAzMzIgMTIuNjc3Nkw2Mi4zMzE0IDE0LjMwMjlDNjEuMjc0OSAxOC42MSA1OC4xODY4IDIwLjc2MzYgNTMuMDI2NCAyMC43NjM2QzUxLjExNjYgMjAuODA0MiA0OS4yNDc1IDIwLjM5NzkgNDcuNTQwOSAxOS41NDQ2QzQ2LjAzNzUgMTguNzMxOSA0NC43Nzc4IDE3LjUxMjkgNDQuMDA1OCAxNS45Njg5QzQzLjE1MjUgMTQuMjIxNiA0Mi43MDU1IDEyLjMxMTkgNDIuNzg2OCAxMC4zNjE1QzQyLjc0NjIgOC40MTEwOCA0My4xNTI1IDYuNTAxMzIgNDQuMDA1OCA0Ljc1NDA5QzQ0Ljc3NzggMy4yNTA2NiA0Ni4wMzc1IDEuOTkxMDMgNDcuNTQwOSAxLjE3ODM3QzQ5LjI0NzUgMC4zMjUwNjggNTEuMTE2NiAtMC4wODEyNjQ3IDUzLjAyNjQgLTAuMDQwNjMxNUM1NS4xMzkzIC0wLjEyMTg5OCA1Ny4yNTIyIDAuNDA2MzM0IDU5LjA4MDcgMS40NjI4QzYwLjc0NjcgMi40Nzg2MyA2MS44ODQ0IDQuMTQ0NTkgNjIuMjA5NSA2LjA1NDM2TDU2LjExNDUgOC40NTE3MkM1NS45NTIgNy4xOTIwOSA1NS42Njc1IDYuMzc5NDIgNTUuMjIwNiA1LjkzMjQ2QzU0LjY1MTcgNS40NDQ4NiA1My45NjEgNS4yNDE2OSA1My4yMjk2IDUuMjgyMzJDNTIuMjU0NCA1LjI0MTY5IDUxLjM2MDQgNS42ODg2NiA1MC44MzIyIDYuNTAxMzJDNTAuMzA0IDcuMzEzOTkgNTAuMDE5NSA4LjU3MzYyIDUwLjAxOTUgMTAuMzIwOEM1MC4wMTk1IDEyLjA2ODEgNTAuMjYzMyAxMy4zMjc3IDUwLjc5MTYgMTQuMTQwNEM1MS4zMTk4IDE1LjAzNDMgNTIuMjEzNyAxNS40ODEzIDUzLjE0ODMgMTUuNDQwNlpNMzUuNzE2NiAyMC40NzkyTDM0Ljc4MjEgMTYuNjE5SDI5LjMzNzJMMjguNDAyNiAyMC40NzkySDIxLjMzMjVMMjcuODc0NCAwLjMyNTA2OEgzNi40NDhMNDMuMDMwNiAyMC40NzkySDM1LjcxNjZaTTMyLjE0MDkgNS40ODU0OUgzMi4wNTk2TDMxLjI0NyA4Ljg5ODY4TDMwLjQzNDMgMTIuMTlIMzMuNzY2MkwzMi4xNDA5IDUuNDg1NDlaTTEyLjk2MiAxMi45NjJINy40MzU4OFYyMC40NzkySDAuMzI1MDY2VjAuMzI1MDY4SDcuNDM1ODhWNy43MjAzMkgxMi45NjJWMC4zMjUwNjhIMjAuMDcyOFYyMC40NzkySDEyLjk2MlYxMi45NjJaTTMwLjYzNzUgNDUuMTg0MlY1MC41NDc4QzMwLjYzNzUgNTAuNTQ3OCAyMC4wMzIyIDUxLjAzNTQgMjAuNTYwNCAzOS42NThDMjAuNjQxNyAyOS4wNTI4IDMwLjU5NjggMjkuNzg0MiAzMC41OTY4IDI5Ljc4NDJWMzQuOTg1MkMzMC41OTY4IDM0Ljk4NTIgMjcuNjcxMiAzNC43NDE0IDI3Ljc1MjUgNDAuMDY0NEMyNy44MzM4IDQ1LjM4NzMgMzAuMDI4IDQ1LjA2MjMgMzAuNjM3NSA0NS4xODQyWk02OS41NjQxIDM0Ljc4MjFWMjkuNDE4NUM2OS41NjQxIDI5LjQxODUgNzkuNTU5OSAyOC40ODM5IDc5LjY4MTggMzkuOTgzMUM3OS42MDA1IDUwLjc5MTYgNjkuNjA0OCA1MC4yMjI3IDY5LjYwNDggNTAuMjIyN1Y0NC45ODFDNjkuNjA0OCA0NC45ODEgNzIuNjkyOSA0NC45ODEgNzIuNDQ5MSAzOS41MzYyQzcyLjIwNTMgMzQuMDkxMyA2OS41NjQxIDM0Ljc4MjEgNjkuNTY0MSAzNC43ODIxWk0xMjQuMjk3IDUwLjAxOTVIMTE2LjUzNkwxMTIuOTYgNDMuMjc0NEgxMTEuMDFWNTAuMDE5NUgxMDQuMDIxVjI5Ljc0MzVIMTE0Ljk5MkMxMTcuNjc0IDI5Ljc0MzUgMTE5Ljc0NiAzMC4zMTI0IDEyMS4xMjggMzEuNDUwMUMxMjIuNTA5IDMyLjU4NzkgMTIzLjIgMzQuMjk0NSAxMjMuMiAzNi41MjkzQzEyMy4yIDM5LjQ5NTUgMTIxLjk4MSA0MS40ODY1IDExOS41NDMgNDIuNTAyNEwxMjQuMjk3IDUwLjAxOTVaTTExNS40MzkgMzUuMjY5N0MxMTUuMDczIDM0Ljk4NTIgMTE0LjQyMyAzNC44MjI3IDExMy41MjkgMzQuODIyN0gxMTAuOTY5VjM4LjU2MUgxMTMuNTI5QzExNC40MjMgMzguNTYxIDExNS4wNzMgMzguNDM5MSAxMTUuNDM5IDM4LjE1NDZDMTE2LjIxMSAzNy4zNDIgMTE2LjIxMSAzNi4wODIzIDExNS40MzkgMzUuMjY5N1pNOTEuNTg3MyA1MC4zMDRDODUuMDQ1NCA1MC4zMDQgODEuNzk0NyA0Ny4yOTcxIDgxLjc5NDcgNDEuMjgzNFYyOS43NDM1SDg4Ljk4NjhWNDEuODUyMkM4OC45NDYyIDQyLjY2NDkgODkuMTQ5MyA0My41MTgyIDg5LjYzNjkgNDQuMTY4M0M5MC4xMjQ1IDQ0LjY5NjYgOTAuODU1OSA0NS4wMjE2IDkxLjU4NzMgNDQuOTQwNEM5Mi4zMTg3IDQ0Ljk4MSA5My4wNTAxIDQ0LjY5NjYgOTMuNTM3NyA0NC4xNjgzQzk0LjAyNTMgNDMuNTE4MiA5NC4yNjkxIDQyLjY2NDkgOTQuMjI4NSA0MS44NTIyVjI5Ljc0MzVIMTAxLjM4VjQxLjI4MzRDMTAxLjM4IDQ3LjI5NzEgOTguMTI5MyA1MC4zMDQgOTEuNTg3MyA1MC4zMDRaTTE0LjIyMTYgNTAuMDE5NUg3LjA3MDE4VjQyLjk5TDAgMjkuNzQzNUg3LjExMDgyTDkuMjY0MzggMzQuMzc1N0wxMC42ODY1IDM4LjA3MzRMMTIuMTA4NyAzNC4zNzU3TDE0LjI2MjMgMjkuNzQzNUgyMS4yOTE4TDE0LjIyMTYgNDIuOTlWNTAuMDE5NVoiIGZpbGw9IiMyRDMwMzciLz4KPHBhdGggZD0iTTQ1Ljk1NjIgMjkuNTgxSDM3LjM0MTlWNTAuNzEwM0g0NS45NTYyVjI5LjU4MVoiIGZpbGw9IiMyRDMwMzciLz4KPHBhdGggZD0iTTU0LjU3MDUgMjkuNTgxSDQ1Ljk1NjJWNTAuNzEwM0g1NC41NzA1VjI5LjU4MVoiIGZpbGw9IiNGRkYzMTAiLz4KPHBhdGggZD0iTTYzLjIyNTMgMjkuNTgxSDU0LjYxMTFWNTAuNzEwM0g2My4yMjUzVjI5LjU4MVoiIGZpbGw9IiNDQzBBMEEiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxNTQiIGhlaWdodD0iODAuMDA2OSIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" alt="HYF Logo" class="logo">
+      </a>
+    </div>
+    <nav class="navbar-menu">
+      <a class="menu" href="">The Program</a>
+      <a class="menu" href="">Volunteer</a>
+      <a class="menu" href="">About</a>
+      <a class="menu" href="">FAQ</a>
+      <a class="menu" href="">Support Us</a>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfS0215I6BCy1jzpWmxv9UxYxp5I25ZcoWhSxijhcUImLELcg/viewform">Apply Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Banner -->
+<section style="background-size: cover" class="banner">
+  <div class="showcase-container">
+    <div class="showcase-conteiner showcase.h1">
+      <h1 class="showcase-h1">HELPING NEW TALENT INTO THE TECH WORLD</h1>
+    </div>
+  </div>
+</section>
+
+<!--Our Program-->
+<section style="background-color: none; overflow: hidden"class="our-program">
+  <div class="our-program-container">
+    <div class="our-program-container-d1">
+      <div class="our-program-container-d2">
+        <h2 class="our-program-h1">OUR PROGRAM</h2>
+        <p class="our-program-p">Our <b>8-month</b> program is divided into <b>14 modules.</b> After the program, students join a <b>4-week intensive bootcamp</b> to work on a real project with a real partner. Our training takes place at <b>BeCentral</b> (Brussels) every <b>Sunday</b>. During the week,students are supported online in their <b>self-study</b>,homework and peer learning.
+        </p>
+        <a data-target="link" href="/program">
+        <button class="our-program-button"> Discover more --> </button>  
+        </a>
+      </div>
+      <div class="our-program-container-d3" >
+        <div style="min-height: 300px" class="our-program-container-d4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Our Impact-->
+<section class="our-impact">
+  <div class="our-impact-c1">
+    <div class="our-impact-c2">
+      <div class="our-impact-d1">
+        <h2 class="our-impact-d1-h1">OUR IMPACT</h2>
+        <p class="our-impact-d1-p">We graduated over 80 people in Belgium and more than 200 globally.In Belgium, over 70% found and retained a high-quality job as a developer.
+        </p>
+      </div>
+      <div class="our-impact-d2">
+        <div class="our-impact-d2-1">
+          <h1 class="our-impact-d2-h1">80</h1>
+          <p class="our-impact-d2-p">Students graduated since HackYourFuture Belgium was founded in 2018</p>
+        </div>
+        <div class="our-impact-d2-1">
+          <h1 class="our-impact-d2-h1">70%</h1>
+          <p class="our-impact-d2-p">Of our graduates find an internship, a job or start university.</p>
+        </div>
+        <div class="our-impact-d2-1">
+          <h1 class="our-impact-d2-h1">200+</h1>
+          <p class="our-impact-d2-p">Alumni in the Netherlands, Denmark, Belgium and Canada.</p>
+        </div>
+      </div>
+    </section>
+
+<!--Core Values-->
+<section class="core-values">
+  <h2 class="core-values-title">OUR CORE VALUES</h2>
+    <div class="core-values-content">
+        <div class="core-values-item">
+            <img src="https://hackyourfuture.be/static/community-3347f757a579fb678f68ee42a03ea14b.svg" alt="community"/>
+            <h3>Community</h3>
+            <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
+        </div>
+        <div class="core-values-item">
+            <img src="https://hackyourfuture.be/static/diversity-inclusiveness-da0e781b5d30e2f8eebbc90e94bca398.svg" alt="Diversity"/>
+            <h3>Diversity & inclusiveness</h3>
+            <p>Our program is adapted to suit people with different backgrounds, often in vulnerable situations. We teach on Sundays to allow everyone to take control of their personal lives during the week.</p>
+        </div>
+        <div class="core-values-item">
+            <img src="https://hackyourfuture.be/static/commitment-fbbb30e26f644c37a3f840b712d44622.svg" alt="commitment"/>
+            <h3>Commitment</h3>
+            <p>Our program is free of charge, although we ask for strong commitment during our 7 month-journey. And you know what? Many alumni stay actively involved!</p>
+        </div>
+        <div class="core-values-item">
+            <img src="https://hackyourfuture.be/static/open-a250298a62de2a8d61c7c5ae00eaa031.svg" alt="open"/>
+            <h3>Open</h3>
+            <p>Sharing is caring. Our curriculum is 100% open. We believe in knowledge for the many, not the few.</p>
+        </div>
+    </div>
+</section>
+
+  <!--Success Stories-->
+<section class="success-stories" style="overflow: hidden;">
+   <div class="success-stories-c1">
+    <div class="success-stories-box">
+      <h2 class="success-stories-title">Our Success Stories</h2>
+        <div class="arrow-left">
+          <img src="../hackyourfuture-g4/public/img/arrow-left.png" alt="arrow left">
+        </div>
+      <div class="student-box">
+         <div class="student-stories">
+           <div class="image-container">
+             <img src="https://hackyourfuture.be/static/hanim-69b9200a8e61079c81f7185a12f6f3c6.jpg" width="150px" alt="Zeynep Hanim">
+           </div>
+           <h4 class="student-name" style="margin-bottom: 0;">Zeynep Hanim - Optis (Cronos)</h4>
+           <p class="job">Full-stack Developer</p>
+           <p class="student-experience">"HYF is a light that I saw at the bottom as well, a hope that I held onto as I was building a new life in a new country. It gave me a chance not only to improve my knowledge but to boost my confidence. Also, it gave me a chance to meet many wonderful people."</p>
+         </div>
+         </div>
+        <div class="arrow-right">
+          <img src="../hackyourfuture-g4/public/img/arrow-right.png" alt="arrow right">
+        </div>
+     </div>
+  </div>
+</section>
+  
+  <!--Our Partners-->
+<section class="our-partners">
+  <div class="our-partners-c1">
+    <div class="our-partners-c2">
+      <h2 class="partner-title">Our Partners</h2>
+      <a href="mailto:contact@hackyourfuture.bemailto:contact@hackyourfuture.be" class="become-a-partner">Become A Partner -></a>
+    </div>
+    <div class="our-partners-box">
+        <div class="our-partners-logo">
+          <img src="public/img/print-simple.svg" alt="print-simple-logo" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/open-knowledge.svg" alt="open-knowledge-be" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/digital-belgium.svg" alt="digital-belgium" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/artevelde-hogeschool.svg" alt="artevelde-hogeschool" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/bruxelles-emploi.svg" alt="bruxelles-emploi" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/microsoft.svg" alt="microsoft" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/duo_logo.png" alt="duo_logo" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/DSJC-Member-NEGATIVE.png" alt="DSJC-Member-NEGATIVE" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/datacamp.svg" alt="datacamp" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/UXAntwerp_logo.png" alt="UXAntwerp_logo" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/Open-recognition-aliance.png" alt="Open-recognition-alliance" class="partners">
+        </div>
+        <div class="our-partners-logo">
+          <img src="public/img/Bruxelles-Formation_logo.png" alt="Bruxelles-Formation_logo" class="partners">
+    </div>
+  </div>
+</section>
+
+<!--Support-->
+<section class="support" margin-bottom='50px'>
+  <div class="support-cd-1">
+    <div class="support-cd-2">
+      <div class="support-left">
+        <div class="support-left-body">
+          <h1 class="support-title">Support the developers tomorrow</h1>
+          <p class="support-message">"Help refugees build digital & soft skills for a career in web development. We are a non-profit organization. Thanks to your support we can improve and keep our program free of charge for students."</p>
+        </div>
+      </div>
+      <div class="support-right">
+        <form class="support-donation-form">
+          <div class="support-df-1">
+            <label for="once" class="frequency-donation">
+              <input type="radio" class="option" name="One time"> 
+              <p class="option-message">One time</p> 
+          </label>
+          <label for="monthly" class="frequency-donation">
+              <input type="radio" class="option" name="Monthly"> 
+              <p class="option-message">Monthly</p> 
+          </label> 
+          </div>
+          <div class="support-df-2">
+            <label for="amount-options" class="support-amount-option">Select your amount</label>
+            <ul class="choose-the-amount">
+              <li class="chosen-amount">€10</li>
+              <li class="other-amount">€25</li>
+              <li class="other-amount">€50</li>
+              <li class="other-amount">€100</li>
+              <li class="other-amount">Full scholarship</li>
+            </ul>
+          <label for="amount" class="support-amount-option">Amount</label>
+          <input type="number" value="10" class="form-amount-message">
+          <label for="message" class="support-amount-option">Message</label>
+          <input type="text" class="form-message" value="">
+          </div>
+        <button class="donate-button">DONATE</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact-->
+      <section style="margin-bottom:50px" class="contact">
+          <div class="contact-d1">
+            <div class="contact-d2">
+              <h1 class="contact-h1">CONTACT US</h1>
+              <p class="contact-p">We're always happy to welcome people like you to our HYF community.Drop us a line and become part of it!
+              </p>
+              <form class="contact-form">
+                  <label for="full-name" class="contact-label">Full Name</label>
+                  <input type="text" id="full-name" class="contact-input">
+                  <label for="email" class="contact-label">Email address</label>
+                  <input type="email" id="email" class="contact-input">
+                  <label for="message" class="contact-label">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" spellcheck="false" class="contact-textarea"></textarea>
+                    <button class="contact-button">Send</button>
+              </form>
+            </div>
+            <div class="contact-d3">
+                <iframe class="contact-iframe" src="https://www.openstreetmap.org/export/embed.html?bbox=4.356269538402558%2C50.84478366215189%2C4.358683526515962%2C50.84615377213845&layer=mapnik&marker=50.8454687221748%2C4.357476532459259" width="600" height="450" title="map" class="contact-d3"></iframe>
+            </div>
+          </div>
+      </section>
+ 
+      <!--footer-->
+      <footer class="footer">
+        <h3>HACK YOUR FUTURE</h3>
+        <p>BeCentral</p>
+        <p>Cantersteen 12</p>
+        <p>1000 Bruxelles</p>
+        <a href = "mailto:contact@hackyourfuture.be">contact@hackyourfuture.be</a>
+        <div class="social_icons">
           <a href="">
-            <img src="public/img/logo.png" alt="Hack Your Future Logo" />
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAxNSAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1IDBIMTAuOTA5MUM5LjEwMDggMCA3LjM2NjU3IDAuNjg0ODE5IDYuMDg3OTEgMS45MDM4MUM0LjgwOTI1IDMuMTIyNzkgNC4wOTA5MSA0Ljc3NjA5IDQuMDkwOTEgNi41VjEwLjRIMFYxNS42SDQuMDkwOTFWMjZIOS41NDU0NVYxNS42SDEzLjYzNjRMMTUgMTAuNEg5LjU0NTQ1VjYuNUM5LjU0NTQ1IDYuMTU1MjIgOS42ODkxMiA1LjgyNDU2IDkuOTQ0ODUgNS41ODA3NkMxMC4yMDA2IDUuMzM2OTYgMTAuNTQ3NCA1LjIgMTAuOTA5MSA1LjJIMTVWMFoiIGZpbGw9IiM0QTUwQkIiLz4KPC9zdmc+Cg==" alt="facebook"/>
+          </a>
+          <a href="">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAzMiAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMyIDAuMDE0NTcwNUMzMC42MDcxIDAuOTkzMzIyIDI5LjA2NDkgMS43NDE5MSAyNy40MzI3IDIuMjMxNTFDMjYuNTU2NyAxLjIyODExIDI1LjM5MjUgMC41MTY5MTkgMjQuMDk3NSAwLjE5NDEzN0MyMi44MDI1IC0wLjEyODY0NiAyMS40MzkzIC0wLjA0NzQ1MjEgMjAuMTkyMSAwLjQyNjczN0MxOC45NDUgMC45MDA5MjYgMTcuODc0MSAxLjc0NTIzIDE3LjEyNDMgMi44NDU0NkMxNi4zNzQ2IDMuOTQ1NjkgMTUuOTgyMSA1LjI0ODc3IDE2IDYuNTc4NDRWOC4wMjc0MkMxMy40NDM4IDguMDkzNDUgMTAuOTEwOSA3LjUyODcgOC42MjY5MiA2LjM4MzQ3QzYuMzQyOSA1LjIzODI1IDQuMzc4NjQgMy41NDgxIDIuOTA5MDkgMS40NjM1NUMyLjkwOTA5IDEuNDYzNTUgLTIuOTA5MDkgMTQuNTA0MyAxMC4xODE4IDIwLjMwMDNDNy4xODYyMiAyMi4zMjU5IDMuNjE3NjggMjMuMzQxNiAwIDIzLjE5ODJDMTMuMDkwOSAzMC40NDMxIDI5LjA5MDkgMjMuMTk4MiAyOS4wOTA5IDYuNTM0OTdDMjkuMDg5NiA2LjEzMTM2IDI5LjA1MDYgNS43Mjg3NSAyOC45NzQ1IDUuMzMyMzJDMzAuNDU5MSAzLjg3MzkxIDMxLjUwNjcgMi4wMzI1OCAzMiAwLjAxNDU3MDVaIiBmaWxsPSIjNEE1MEJCIi8+Cjwvc3ZnPgo=" alt="twitter"/>
+          </a>
+          <a href="">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjciIHZpZXdCb3g9IjAgMCAyNSAyNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuMjU2NDEgMjIuNDMzMUMzLjM1ODk3IDI0LjIxNjYgMy4zNTg5NyAxOS40NjA3IDEgMTguODY2Mkw5LjI1NjQxIDIyLjQzMzFaTTE3LjUxMjggMjZWMjEuMzk4N0MxNy41NTcxIDIwLjgzMTggMTcuNDgxMSAyMC4yNjE5IDE3LjI4OTkgMTkuNzI2OEMxNy4wOTg4IDE5LjE5MTggMTYuNzk2OCAxOC43MDM5IDE2LjQwNDEgMTguMjk1NUMyMC4xMDc3IDE3Ljg3OTQgMjQgMTYuNDY0NSAyNCA5Ljk3MjgzQzIzLjk5OTcgOC4zMTI4NCAyMy4zNjYzIDYuNzE2NTEgMjIuMjMwOCA1LjUxNDIzQzIyLjc2ODQgNC4wNjE5MyAyMi43MzA0IDIuNDU2NjQgMjIuMTI0NiAxLjAzMTg2QzIyLjEyNDYgMS4wMzE4NiAyMC43MzI4IDAuNjE1NzIgMTcuNTEyOCAyLjc5MTUyQzE0LjgwOTQgMi4wNTI5NiAxMS45NTk4IDIuMDUyOTYgOS4yNTY0MSAyLjc5MTUyQzYuMDM2NDEgMC42MTU3MiA0LjY0NDYyIDEuMDMxODYgNC42NDQ2MiAxLjAzMTg2QzQuMDM4OCAyLjQ1NjY0IDQuMDAwNzkgNC4wNjE5MyA0LjUzODQ2IDUuNTE0MjNDMy4zOTQ1MSA2LjcyNTQyIDIuNzYwNDEgOC4zMzYxOCAyLjc2OTIzIDEwLjAwODVDMi43NjkyMyAxNi40NTI3IDYuNjYxNTQgMTcuODY3NSAxMC4zNjUxIDE4LjMzMTJDOS45NzcwNyAxOC43MzU0IDkuNjc3OCAxOS4yMTc1IDkuNDg2NzcgMTkuNzQ2QzkuMjk1NzUgMjAuMjc0NSA5LjIxNzI2IDIwLjgzNzYgOS4yNTY0MSAyMS4zOTg3VjI2IiBmaWxsPSIjNEE1MEJCIi8+CjxwYXRoIGQ9Ik05LjI1NjQxIDIyLjQzMzFMOS41NDU4NyAyMy4zOTAzTDkuNjUzIDIxLjUxNTFMOS4yNTY0MSAyMi40MzMxWk0xIDE4Ljg2NjJMMS4yNDQzNyAxNy44OTY2QzAuNzM5MDQ5IDE3Ljc2OTIgMC4yMjA2NDUgMTguMDUxMyAwLjA1MzA5NjQgMTguNTQ0N0MtMC4xMTQ0NTIgMTkuMDM4MiAwLjEyNTAyOSAxOS41Nzc2IDAuNjAzNDEzIDE5Ljc4NDJMMSAxOC44NjYyWk0xNy41MTI4IDI2VjI3SDE4LjUxMjhWMjZIMTcuNTEyOFpNMTcuNTEyOCAyMS4zOTg3TDE2LjUxNTkgMjEuMzIwOUwxNi41MTI4IDIxLjM1OThWMjEuMzk4N0gxNy41MTI4Wk0xNi40MDQxIDE4LjI5NTVMMTYuMjkyNCAxNy4zMDE4TDE0LjI3ODYgMTcuNTI4MUwxNS42ODMzIDE4Ljk4ODdMMTYuNDA0MSAxOC4yOTU1Wk0yNCA5Ljk3MjgzSDI1VjkuOTcyNjVMMjQgOS45NzI4M1pNMjIuMjMwOCA1LjUxNDIzTDIxLjI5MyA1LjE2NzA0TDIxLjA3NzQgNS43NDkzOUwyMS41MDM4IDYuMjAwODZMMjIuMjMwOCA1LjUxNDIzWk0yMi4xMjQ2IDEuMDMxODZMMjMuMDQ0OSAwLjY0MDU2M0MyMi45Mjg1IDAuMzY2NzQ4IDIyLjY5NjEgMC4xNTg5OTggMjIuNDExMSAwLjA3Mzc2NDJMMjIuMTI0NiAxLjAzMTg2Wk0xNy41MTI4IDIuNzkxNTJMMTcuMjQ5MyAzLjc1NjE2TDE3LjY5MjIgMy44NzcxOEwxOC4wNzI3IDMuNjIwMDlMMTcuNTEyOCAyLjc5MTUyWk05LjI1NjQxIDIuNzkxNTJMOC42OTY1MyAzLjYyMDA5TDkuMDc3IDMuODc3MThMOS41MTk5NSAzLjc1NjE2TDkuMjU2NDEgMi43OTE1MlpNNC42NDQ2MiAxLjAzMTg2TDQuMzU4MTUgMC4wNzM3NjQzTDMuOTA4MTQgMC4yMDgzMTVMMy43MjQzNSAwLjY0MDU2M0w0LjY0NDYyIDEuMDMxODZaTTQuNTM4NDYgNS41MTQyM0w1LjI2NTQ2IDYuMjAwODdMNS42OTE4NiA1Ljc0OTQxTDUuNDc2MjYgNS4xNjcwNEw0LjUzODQ2IDUuNTE0MjNaTTIuNzY5MjMgMTAuMDA4NUgzLjc2OTI0TDMuNzY5MjIgMTAuMDAzMkwyLjc2OTIzIDEwLjAwODVaTTEwLjM2NTEgMTguMzMxMkwxMS4wODY1IDE5LjAyMzhMMTIuNDY2MyAxNy41ODY1TDEwLjQ4OTQgMTcuMzM5TDEwLjM2NTEgMTguMzMxMlpNOS4yNTY0MSAyMS4zOTg3SDEwLjI1NjRWMjEuMzYzOUwxMC4yNTQgMjEuMzI5MUw5LjI1NjQxIDIxLjM5ODdaTTkuMjU2NDEgMjZIOC4yNTY0MVYyN0g5LjI1NjQxVjI2Wk04Ljk2Njk1IDIxLjQ3NTlDNy42MDcgMjEuODg3MiA2LjY4NjcxIDIxLjg5MTEgNi4wMzk3MSAyMS43Mzg1QzUuNDA1MzcgMjEuNTg4OSA0LjkzNjc4IDIxLjI2NjEgNC41MTEyMSAyMC44MzcxQzQuMjkyOTEgMjAuNjE3MSA0LjA4OTkgMjAuMzczMSAzLjg3Nzk4IDIwLjEwNTVDMy42NzgzNCAxOS44NTM0IDMuNDQ1MDMgMTkuNTQ2MyAzLjIxOTczIDE5LjI3OTdDMi43NjUzMiAxOC43NDIgMi4xNTE1MSAxOC4xMjUyIDEuMjQ0MzcgMTcuODk2NkwwLjc1NTYzMyAxOS44MzU5QzEuMDI3OTggMTkuOTA0NiAxLjI5ODc5IDIwLjEwNTIgMS42OTIxMyAyMC41NzA2QzEuODkwNzEgMjAuODA1NiAyLjA3MjA2IDIxLjA0NjYgMi4zMTAxMiAyMS4zNDcyQzIuNTM1OSAyMS42MzIzIDIuNzkzNjMgMjEuOTQ1NiAzLjA5MTM1IDIyLjI0NTdDMy42OTc4MyAyMi44NTcgNC40ODI0NSAyMy40MjYgNS41ODA0OCAyMy42ODUxQzYuNjY1ODUgMjMuOTQxMSA3Ljk1NzEgMjMuODcwOCA5LjU0NTg3IDIzLjM5MDNMOC45NjY5NSAyMS40NzU5Wk0wLjYwMzQxMyAxOS43ODQyTDguODU5ODIgMjMuMzUxMUw5LjY1MyAyMS41MTUxTDEuMzk2NTkgMTcuOTQ4MkwwLjYwMzQxMyAxOS43ODQyWk0xOC41MTI4IDI2VjIxLjM5ODdIMTYuNTEyOFYyNkgxOC41MTI4Wk0xOC41MDk4IDIxLjQ3NjVDMTguNTY1IDIwLjc2OTMgMTguNDcwMiAyMC4wNTgyIDE4LjIzMTYgMTkuMzkwNEwxNi4zNDgyIDIwLjA2MzNDMTYuNDkxOSAyMC40NjU1IDE2LjU0OTEgMjAuODk0MyAxNi41MTU5IDIxLjMyMDlMMTguNTA5OCAyMS40NzY1Wk0xOC4yMzE2IDE5LjM5MDRDMTcuOTkzIDE4LjcyMjUgMTcuNjE1OSAxOC4xMTI5IDE3LjEyNDkgMTcuNjAyNEwxNS42ODMzIDE4Ljk4ODdDMTUuOTc3NyAxOS4yOTQ4IDE2LjIwNDUgMTkuNjYxIDE2LjM0ODIgMjAuMDYzM0wxOC4yMzE2IDE5LjM5MDRaTTE2LjUxNTggMTkuMjg5M0MxOC40MjQ3IDE5LjA3NDggMjAuNTY5OCAxOC41ODkgMjIuMjM3NSAxNy4xNzU0QzIzLjk1MjQgMTUuNzIxOCAyNSAxMy40MzIzIDI1IDkuOTcyODNIMjNDMjMgMTMuMDA1MSAyMi4xMDE0IDE0LjY2ODkgMjAuOTQ0MyAxNS42NDk3QzE5Ljc0IDE2LjY3MDUgMTguMDg3MSAxNy4xMDAyIDE2LjI5MjQgMTcuMzAxOEwxNi41MTU4IDE5LjI4OTNaTTI1IDkuOTcyNjVDMjQuOTk5NyA4LjA1ODQ3IDI0LjI2OTMgNi4yMTYyNSAyMi45NTc4IDQuODI3NjFMMjEuNTAzOCA2LjIwMDg2QzIyLjQ2MzIgNy4yMTY3NiAyMi45OTk3IDguNTY3MjEgMjMgOS45NzMwMUwyNSA5Ljk3MjY1Wk0yMy4xNjg2IDUuODYxNDJDMjMuNzk0OCA0LjE2OTgxIDIzLjc1MDYgMi4zMDAzMiAyMy4wNDQ5IDAuNjQwNTYzTDIxLjIwNDMgMS40MjMxNUMyMS43MTAzIDIuNjEyOTcgMjEuNzQyMSAzLjk1NDA0IDIxLjI5MyA1LjE2NzA0TDIzLjE2ODYgNS44NjE0MlpNMjIuMTI0NiAxLjAzMTg2QzIyLjQxMTEgMC4wNzM3NjQyIDIyLjQxMDEgMC4wNzM0NzM1IDIyLjQwOTEgMC4wNzMxODIyQzIyLjQwODggMC4wNzMwODMyIDIyLjQwNzggMC4wNzI3OTE1IDIyLjQwNzEgMC4wNzI1OTQzQzIyLjQwNTggMC4wNzIyMDA2IDIyLjQwNDQgMC4wNzE4MDMgMjIuNDAzMSAwLjA3MTQwMTlDMjIuNDAwMyAwLjA3MDU5OTYgMjIuMzk3NCAwLjA2OTc4MyAyMi4zOTQ1IDAuMDY4OTUzN0MyMi4zODg2IDAuMDY3Mjk1IDIyLjM4MjMgMC4wNjU1ODU3IDIyLjM3NTcgMC4wNjM4Mzc3QzIyLjM2MjUgMC4wNjAzNDE1IDIyLjM0NzggMC4wNTY2OTM0IDIyLjMzMTYgMC4wNTI5ODk3QzIyLjI5OTMgMC4wNDU1Nzk0IDIyLjI2MTIgMC4wMzc5NjUxIDIyLjIxNzIgMC4wMzA5MDE2QzIyLjEyOTMgMC4wMTY3NTc1IDIyLjAxODYgMC4wMDQ5MzM1NCAyMS44ODQ2IDAuMDAxMjE2MTdDMjEuNjE2IC0wLjAwNjIzMzkzIDIxLjI1ODcgMC4wMTg5OTM4IDIwLjgwNzggMC4xMTk5QzE5LjkwNzkgMC4zMjEyOTYgMTguNjQwNCAwLjgyMjcyNiAxNi45NTI5IDEuOTYyOTRMMTguMDcyNyAzLjYyMDA5QzE5LjYwNTMgMi41ODQ1MSAyMC42NDM3IDIuMjA2MTEgMjEuMjQ0NiAyLjA3MTYzQzIxLjU0NDEgMi4wMDQ1OSAyMS43MzYgMS45OTc4NyAyMS44MjkxIDIuMDAwNDVDMjEuODc1OSAyLjAwMTc1IDIxLjg5OTEgMi4wMDU0MyAyMS44OTk4IDIuMDA1NTVDMjEuOTAwMiAyLjAwNTYxIDIxLjg5NTIgMi4wMDQ4MSAyMS44ODQ4IDIuMDAyNDRDMjEuODc5NiAyLjAwMTI1IDIxLjg3MzEgMS45OTk2NyAyMS44NjUzIDEuOTk3NjJDMjEuODYxNCAxLjk5NjU5IDIxLjg1NzIgMS45OTU0NSAyMS44NTI3IDEuOTk0MTdDMjEuODUwNCAxLjk5MzUzIDIxLjg0ODEgMS45OTI4NiAyMS44NDU3IDEuOTkyMTZDMjEuODQ0NSAxLjk5MTgxIDIxLjg0MzIgMS45OTE0NSAyMS44NDIgMS45OTEwOEMyMS44NDEzIDEuOTkwOSAyMS44NDA0IDEuOTkwNjEgMjEuODQwMSAxLjk5MDUyQzIxLjgzOTEgMS45OTAyNCAyMS44MzgyIDEuOTg5OTUgMjIuMTI0NiAxLjAzMTg2Wk0xNy43NzY0IDEuODI2ODdDMTQuOTAwNSAxLjA0MTE4IDExLjg2ODggMS4wNDExOCA4Ljk5Mjg3IDEuODI2ODdMOS41MTk5NSAzLjc1NjE2QzEyLjA1MDggMy4wNjQ3NCAxNC43MTg0IDMuMDY0NzQgMTcuMjQ5MyAzLjc1NjE2TDE3Ljc3NjQgMS44MjY4N1pNOS44MTYyOSAxLjk2Mjk0QzguMTI4ODYgMC44MjI3MjYgNi44NjEzNSAwLjMyMTI5NiA1Ljk2MTQgMC4xMTk5QzUuNTEwNSAwLjAxODk5MzggNS4xNTMxOSAtMC4wMDYyMzM5MyA0Ljg4NDY2IDAuMDAxMjE2MTdDNC43NTA2NyAwLjAwNDkzMzU0IDQuNjM5OTcgMC4wMTY3NTc1IDQuNTUxOTggMC4wMzA5MDE2QzQuNTA4MDUgMC4wMzc5NjUxIDQuNDY5OTUgMC4wNDU1Nzk0IDQuNDM3NjIgMC4wNTI5ODk4QzQuNDIxNDYgMC4wNTY2OTM0IDQuNDA2NzYgMC4wNjAzNDE1IDQuMzkzNTIgMC4wNjM4Mzc4QzQuMzg2ODkgMC4wNjU1ODU3IDQuMzgwNjQgMC4wNjcyOTUxIDQuMzc0NzQgMC4wNjg5NTM4QzQuMzcxNzkgMC4wNjk3ODMxIDQuMzY4OTQgMC4wNzA1OTk3IDQuMzY2MTcgMC4wNzE0MDJDNC4zNjQ3OSAwLjA3MTgwMzEgNC4zNjM0MyAwLjA3MjIwMDcgNC4zNjIxIDAuMDcyNTk0NEM0LjM2MTQzIDAuMDcyNzkxNSA0LjM2MDQ0IDAuMDczMDgzMiA0LjM2MDExIDAuMDczMTgyM0M0LjM1OTEzIDAuMDczNDczNiA0LjM1ODE1IDAuMDczNzY0MyA0LjY0NDYyIDEuMDMxODZDNC45MzEwOCAxLjk4OTk1IDQuOTMwMTEgMS45OTAyNCA0LjkyOTE2IDEuOTkwNTJDNC45Mjg4NCAxLjk5MDYxIDQuOTI3ODkgMS45OTA5IDQuOTI3MjYgMS45OTEwOEM0LjkyNjAxIDEuOTkxNDUgNC45MjQ3OCAxLjk5MTgxIDQuOTIzNTcgMS45OTIxNkM0LjkyMTE0IDEuOTkyODYgNC45MTg4IDEuOTkzNTMgNC45MTY1MyAxLjk5NDE3QzQuOTEyIDEuOTk1NDUgNC45MDc3OSAxLjk5NjU5IDQuOTAzOSAxLjk5NzYyQzQuODk2MTEgMS45OTk2NyA0Ljg4OTYyIDIuMDAxMjUgNC44ODQ0NCAyLjAwMjQ0QzQuODc0MDcgMi4wMDQ4MSA0Ljg2OTAyIDIuMDA1NjEgNC44Njk0MyAyLjAwNTU1QzQuODcwMTQgMi4wMDU0MyA0Ljg5MzMyIDIuMDAxNzUgNC45NDAxMyAyLjAwMDQ1QzUuMDMzMTkgMS45OTc4NyA1LjIyNTA4IDIuMDA0NTkgNS41MjQ2MyAyLjA3MTYzQzYuMTI1NTggMi4yMDYxMSA3LjE2Mzk2IDIuNTg0NTEgOC42OTY1MyAzLjYyMDA5TDkuODE2MjkgMS45NjI5NFpNMy43MjQzNSAwLjY0MDU2M0MzLjAxODYzIDIuMzAwMzIgMi45NzQzOSA0LjE2OTgxIDMuNjAwNjcgNS44NjE0Mkw1LjQ3NjI2IDUuMTY3MDRDNS4wMjcxOCAzLjk1NDA0IDUuMDU4OTggMi42MTI5NyA1LjU2NDg4IDEuNDIzMTVMMy43MjQzNSAwLjY0MDU2M1pNMy44MTE0NiA0LjgyNzU5QzIuNDkwMTggNi4yMjY1MyAxLjc1OTA3IDguMDg1MzkgMS43NjkyNCAxMC4wMTM4TDMuNzY5MjIgMTAuMDAzMkMzLjc2MTc1IDguNTg2OTggNC4yOTg4MyA3LjIyNDMyIDUuMjY1NDYgNi4yMDA4N0wzLjgxMTQ2IDQuODI3NTlaTTEuNzY5MjMgMTAuMDA4NUMxLjc2OTIzIDEzLjQ0NzQgMi44MTg3OCAxNS43MjM0IDQuNTMxNzQgMTcuMTc1NEM2LjE5NTkzIDE4LjU4NiA4LjMzNjk2IDE5LjA4NTEgMTAuMjQwOSAxOS4zMjM1TDEwLjQ4OTQgMTcuMzM5QzguNjg5NyAxNy4xMTM2IDcuMDMyNzkgMTYuNjczNSA1LjgyNDkyIDE1LjY0OTdDNC42NjU4MyAxNC42NjcyIDMuNzY5MjMgMTMuMDEzOCAzLjc2OTIzIDEwLjAwODVIMS43NjkyM1pNOS42NDM3NSAxNy42Mzg3QzkuMTU4NTEgMTguMTQ0MSA4Ljc4NDc1IDE4Ljc0NjQgOC41NDYzMiAxOS40MDYxTDEwLjQyNzIgMjAuMDg1OUMxMC41NzA4IDE5LjY4ODYgMTAuNzk1NiAxOS4zMjY3IDExLjA4NjUgMTkuMDIzOEw5LjY0Mzc1IDE3LjYzODdaTTguNTQ2MzIgMTkuNDA2MUM4LjMwNzg5IDIwLjA2NTcgOC4yMSAyMC43Njg0IDguMjU4ODQgMjEuNDY4M0wxMC4yNTQgMjEuMzI5MUMxMC4yMjQ1IDIwLjkwNjkgMTAuMjgzNiAyMC40ODMyIDEwLjQyNzIgMjAuMDg1OUw4LjU0NjMyIDE5LjQwNjFaTTguMjU2NDEgMjEuMzk4N1YyNkgxMC4yNTY0VjIxLjM5ODdIOC4yNTY0MVpNOS4yNTY0MSAyN0gxNy41MTI4VjI1SDkuMjU2NDFWMjdaIiBmaWxsPSIjNEE1MEJCIi8+Cjwvc3ZnPgo=" alt="github"/>
+          </a>
+          <a href="">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjYiIHZpZXdCb3g9IjAgMCAyNyAyNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5IDhDMjEuMTIxNyA4IDIzLjE1NjYgOC44NzUyNyAyNC42NTY5IDEwLjQzMzNDMjYuMTU3MSAxMS45OTEzIDI3IDE0LjEwNDQgMjcgMTYuMzA3N1YyNkgyMS42NjY3VjE2LjMwNzdDMjEuNjY2NyAxNS41NzMyIDIxLjM4NTcgMTQuODY4OSAyMC44ODU2IDE0LjM0OTZDMjAuMzg1NSAxMy44MzAyIDE5LjcwNzIgMTMuNTM4NSAxOSAxMy41Mzg1QzE4LjI5MjggMTMuNTM4NSAxNy42MTQ1IDEzLjgzMDIgMTcuMTE0NCAxNC4zNDk2QzE2LjYxNDMgMTQuODY4OSAxNi4zMzMzIDE1LjU3MzIgMTYuMzMzMyAxNi4zMDc3VjI2SDExVjE2LjMwNzdDMTEgMTQuMTA0NCAxMS44NDI5IDExLjk5MTMgMTMuMzQzMSAxMC40MzMzQzE0Ljg0MzQgOC44NzUyNyAxNi44NzgzIDggMTkgOFoiIGZpbGw9IiM0QTUwQkIiLz4KPHBhdGggZD0iTTUgMTBIMFYyNkg1VjEwWiIgZmlsbD0iIzRBNTBCQiIvPgo8cGF0aCBkPSJNMi41IDVDMy44ODA3MSA1IDUgMy44ODA3MSA1IDIuNUM1IDEuMTE5MjkgMy44ODA3MSAwIDIuNSAwQzEuMTE5MjkgMCAwIDEuMTE5MjkgMCAyLjVDMCAzLjg4MDcxIDEuMTE5MjkgNSAyLjUgNVoiIGZpbGw9IiM0QTUwQkIiLz4KPC9zdmc+Cg==" alt="linkedin"/>
           </a>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="the_program.html">The Program</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="support_us.html">Support Us</a></li>
-          </ul>
-        </nav>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfS0215I6BCy1jzpWmxv9UxYxp5I25ZcoWhSxijhcUImLELcg/viewform"
-          class="btn btn-outline"
-          >Apply Now</a
-        >
-      </div>
-    </header>
-
-    <section style="background-size:cover" class="banner">
-
-      <div class="showcase-container">
-        <div class="showcase-conteiner showcase.h1">
-          <h1 class="showcase-h1">HELPING NEW TALENT INTO THE TECH WORLD</h1>
-        </div>
-      </div>
-    </section>
-
-    <section class="our_program"></section>
-
-    <section class="our-impact">
-      <div class="our-impact-c1">
-        <div class="our-impact-c2">
-          <div class="our-impact-d1">
-            <h2>OUR IMPACT</h2>
-            <p class="our-impact-d1-p">We graduated over 80 people in Belgium and more than 200 globally.In Belgium, over 70% found and retained a high-quality job as a developer.
-            </p>
-          </div>
-
-          <div class="our-impact-d2">
-            <div class="our-impact-d2-1">
-              <h1 class="our-impact-d2-h1">80</h1>
-              <p class="our-impact-d2-p">Students graduated since HackYourFuture Belgium was founded in 2018</p>
-            </div>
-
-
-            <div class="our-impact-d2-1">
-              <h1 class="our-impact-d2-h1">70%</h1>
-              <p class="our-impact-d2-p">Of our graduates find an internship, a job or start university.</p>
-            </div>
-
-            <div class="our-impact-d2-1">
-              <h1 class="our-impact-d2-h1">200+</h1>
-              <p class="our-impact-d2-p">Alumni in the Netherlands, Denmark, Belgium and Canada.</p>
-            </div>
-
-          </div>
-          <div class="our-program-container-d3">
-            <div style="min-height:300px" class="our-program-container-d4"></div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="core-values"></section>
-
-    <section class="our-impact"></section>
-
-    <section class="core-values">
-        <h2 class="core-values-title">OUR CORE VALUES</h2>
-        <div class="core-values-content">
-            <div class="core-values-item">
-                <img src="https://hackyourfuture.be/static/community-3347f757a579fb678f68ee42a03ea14b.svg" alt="community"/>
-                <h3>Community</h3>
-                <p>We’re largely dependent on volunteers. That’s what makes us an engaged grassroots community, as our students call it ‘the HYF family’.</p>
-            </div>
-            <div class="core-values-item">
-                <img src="https://hackyourfuture.be/static/diversity-inclusiveness-da0e781b5d30e2f8eebbc90e94bca398.svg" alt="Diversity"/>
-                <h3>Diversity & inclusiveness</h3>
-                <p>Our program is adapted to suit people with different backgrounds, often in vulnerable situations. We teach on Sundays to allow everyone to take control of their personal lives during the week.</p>
-            </div>
-            <div class="core-values-item">
-                <img src="https://hackyourfuture.be/static/commitment-fbbb30e26f644c37a3f840b712d44622.svg" alt="commitment"/>
-                <h3>Commitment</h3>
-                <p>Our program is free of charge, although we ask for strong commitment during our 7 month-journey. And you know what? Many alumni stay actively involved!</p>
-            </div>
-            <div class="core-values-item">
-                <img src="https://hackyourfuture.be/static/open-a250298a62de2a8d61c7c5ae00eaa031.svg" alt="open"/>
-                <h3>Open</h3>
-                <p>Sharing is caring. Our curriculum is 100% open. We believe in knowledge for the many, not the few.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="success-stories"></section>
-
-    <section class="our-partners"></section>
-
-    <section class="support"></section>
-    
-    <section style="margin-bottom:50px" class="contact">
-      <div class="contact-d1">
-        <div class="contact-d2">
-          <h1 class="contact-h1">CONTACT US</h1>
-          <p class="contact-p">We’re always happy to welcome people like you to our HYF community.Drop us a line and become part of it!
-          </p>
-
-          <form class="contact-form">
-              <label for="full-name" class="contact-label">Full Name</label>
-              <input type="text" id="full-name" class="contact-input">
-
-              <label for="email" class="contact-label">Email address</label>
-              <input type="email" id="email" class="contact-input">
-              <label for="message" class="contact-label">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" spellcheck="false" class="contact-textarea"></textarea>
-                <button class="contact-button">Send</button>
-          </form>
-        </div>
-        <div class="contact-d3">
-            <iframe class="contact-iframe" src="https://www.openstreetmap.org/export/embed.html?bbox=4.356269538402558%2C50.84478366215189%2C4.358683526515962%2C50.84615377213845&layer=mapnik&marker=50.8454687221748%2C4.357476532459259" width="600" height="450" title="map" class="contact-d3"></iframe>
-         
-        </div>
-      </div>
-     
-     
-    </section>
-
-    <section class="support">
-        <article class="support_title">
-        <h2>SUPPORT THE DEVELOPERS OF TOMORROW</h2>
-        <p>Help refugees build digital & soft skills for a career in web development. We are a non-profit organization. Thanks to your support we can improve and keep our program free of charge for students.</p>
-        </article>
-    <div class="donation-form>
-        <form class="donation">
-            <div class="frequency">
-                <label for="once" class="frequency_donation">
-                    <input type="radio" class="option" name="One time"> 
-                    <p class="support">One time</p> 
-                </label>
-                <label for="monthly" class="frequency_donation">
-                    <input type="radio" class="option" name="Monthly"> 
-                    <p class="support">Monthly</p> 
-                </label> 
-            </div>
-            <div class="amount_donation">
-                <label for="amount-options" class="support">Select your amount</label>
-                <ul>
-                    <li class="chosen_amount">€10</li>
-                    <li class="other_amount">€25</li>
-                    <li class="other_amount">€50</li>
-                    <li class="other_amount">€100</li>
-                    <li class="other_amount">Full scholarship</li>
-                </ul>
-                <label for="amount" class="support">Amount</label>
-                <input type="number" value="10" class="form-message">
-                <label for="message" class="support">Message</label>
-                <input type="text" class="form-message" value="">
-            </div>
-            <button class="donate_button">DONATE</button>    
-        </form>
-    </div>
-    </section>
-    
-    <section class="contact"></section>
-
-    <section class="footer"></section>
-
-    <footer class="footer"></footer>
+      </footer>
   </body>
 </html>
